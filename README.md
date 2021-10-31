@@ -3,7 +3,7 @@ Our micro:course is a colourful, introductory book of projects that guides learn
 
 ## [Download here](https://github.com/arm-university/micro-course/archive/refs/heads/main.zip)
 
-![](Download_opt.gif)
+![](DL.gif)
 
 ## Resource Aim
 To introduce, inspire and engage learners to study Physical Computing as well as serving as an introduction to the pedagogy and resources offered in our full courses.

@@ -1,4 +1,4 @@
-#Teaching and Learning Content User Licence Agreement
+# Teaching and Learning Content User Licence Agreement
 1. These terms are displayed for you to read prior to use of the particular teaching and learning content and any related documentation and materials (“Materials”) made available to you by Arm Limited (“Arm”). If you choose not to agree with these terms, do not use or access the Materials.
 
 2. THESE TERMS AND CONDITIONS CONSTITUTE A LEGALLY BINDING AGREEMENT BETWEEN YOU AND ARM (“AGREEMENT”). The Materials may include third party elements, which may be subject to separate terms of use.

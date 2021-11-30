@@ -16,7 +16,7 @@ To introduce, inspire and engage learners to study Physical Computing as well as
 The micro:course is a series of individual projects that build in complexity.
 
 ## License
-You are free to fork or clone this material. See [Licence.md](https://github.com/arm-university/micro-course/blob/main/Licence "Title") for the complete license.
+You are free to fork or clone this material. See [Licence.md](https://github.com/arm-university/micro-course/blob/main/License.md) for the complete license.
 
 ## Inclusive Language Commitment
 Arm is committed to making the language we use inclusive, meaningful, and respectful. Our goal is to remove and replace non-inclusive language from our vocabulary to reflect our values and represent our global ecosystem.

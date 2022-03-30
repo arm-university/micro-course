@@ -3,8 +3,8 @@ Our micro:course is a colourful, introductory book of projects that guides learn
 
 Which version should I use? If you are using micro:bit v1s, we recommend downloading the v1 version of the micro:course. If you are using micro:bit v1 or a mixture of v1s and v2s, we recommend the v2 version, which clearly indicates which tasks relate specifically to v2 users.
 
-## [Download micro:course for micro:bit V1](https://github.com/arm-university/micro-course/archive/refs/heads/main.zip)
-## [Download micro:course for micro:bit V2](https://github.com/arm-university/ASP_micro-course/blob/main/Arm_micro%20course_V2.pdf)
+## [Download both micro:courses for micro:bit](https://github.com/arm-university/micro-course/archive/refs/heads/main.zip)
+## [Download micro:course for micro:bit V2 only](https://github.com/arm-university/ASP_micro-course/blob/main/Arm_micro%20course_V2.pdf)
 
 ## Resource Aim
 To introduce, inspire and engage learners to study Physical Computing as well as serving as an introduction to the pedagogy and resources offered in our full courses.

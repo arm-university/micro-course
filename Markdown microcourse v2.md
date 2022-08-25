@@ -3,7 +3,7 @@
 
 Arm Education Media is an imprint of Arm Limited, 110 Fulbourn Road, Cambridge, CB1 9NJ, UK
 
-Copyright © 2022 Arm Limited (or its affiliates). All rights reserved.
+Copyright &copy; 2022 Arm Limited (or its affiliates). All rights reserved.
 
 No part of this publication may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying, recording or any other information storage and retrieval system, without permission in writing from the publisher, except under the following conditions:
 
@@ -22,9 +22,9 @@ Readers must always rely on their own experience and knowledge in evaluating and
 
 To the fullest extent permitted by law, the publisher and the authors, contributors, and editors shall not have any responsibility or liability for any losses, liabilities, claims, damages, costs or expenses resulting from or suffered in connection with the use of the information and materials set out in this textbook.
 
-Such information and materials are protected by intellectual property rights around the world and are copyright © Arm Limited (or its affiliates). All rights are reserved. Any source code, models or other materials set out in this reference book should only be used for non-commercial, educational purposes (and/or subject to the terms of any license that is specified or otherwise provided by Arm). In no event shall purchasing this textbook be construed as granting a license to use any other Arm technology or know-how.
+Such information and materials are protected by intellectual property rights around the world and are copyright &copy; Arm Limited (or its affiliates). All rights are reserved. Any source code, models or other materials set out in this reference book should only be used for non-commercial, educational purposes (and/or subject to the terms of any license that is specified or otherwise provided by Arm). In no event shall purchasing this textbook be construed as granting a license to use any other Arm technology or know-how.
 
-The Arm corporate logo and words marked with  or ™ are registered trademarks or trademarks of Arm Limited (or its affiliates) in the US and/or elsewhere. All rights reserved. micro:bit is a trademark of the Micro:bit Educational Foundation. Other brands and names mentioned in this document may be the trademarks of their respective owners. For more information about Arm's trademarks, please visit **<https://www.arm.com/company/policies/trademarks>**.
+The Arm corporate logo and words marked with &reg; or &trade; are registered trademarks or trademarks of Arm Limited (or its affiliates) in the US and/or elsewhere. All rights reserved. micro:bit is a trademark of the Micro:bit Educational Foundation. Other brands and names mentioned in this document may be the trademarks of their respective owners. For more information about Arm's trademarks, please visit **<https://www.arm.com/company/policies/trademarks>**.
 
 Arm is committed to making the language we use inclusive, meaningful, and respectful. Our goal is to remove and replace non-inclusive language from our vocabulary to reflect our values and represent our global ecosystem.
 
@@ -54,7 +54,7 @@ Accompanying lesson plans and a digital version of this book can be downloaded f
 
 Learners often struggle to conceptualize what the micro:bit is and what it is for. It is important to ensure learners understand that a micro:bit can sense, control and react to the real world in many ways. Learners' creations don't need to be complex and the making part of the process is as much fun as the coding part. Some projects will only have a sensor and an output (like a traffic counter), while others will have more complex programs (like a remote-controlled robot). The beauty of the micro:bit is its versatility and simplicity. The key to unlocking the power of the micro:bit is understanding the blocks (code) that micro:bit uses and learning how to combine the blocks to solve problems in creative ways. Much can be learned through play and experimentation, but learners progress faster if there is a challenge to overcome or a problem to be solved.
 
-## The hardware—Version 1 and Version 2
+## The hardwareï¿½Version 1 and Version 2
 
 There are now two versions of the micro:bit, the original micro:bit (V1) and the new micro:bit (V2). They look very similar, but the new micro:bit has some new features and hardware that make it even better and allow you to do more with it. You can find all the technical details on the micro:bit website: **<https://microbit.org/get-started/user-guide/overview/>**
 
@@ -76,7 +76,7 @@ The most interesting new features are the built-in speaker and microphone. These
 
 ## The interface
 
-The MakeCode website lets you program your micro:bit using a block-based programming language. These blocks do everything a "proper" programming language does, but they allow you to program visually without worrying about the syntax. You can also program your micro:bit using JavaScript or Python if you want to. Some blocks, such as the microphone blocks, will only work on the new (V2) micro:bit, but these are clearly labelled. All other blocks will work on both versions. You can also add additional packages that give you more blocks to play with—more on this later.
+The MakeCode website lets you program your micro:bit using a block-based programming language. These blocks do everything a "proper" programming language does, but they allow you to program visually without worrying about the syntax. You can also program your micro:bit using JavaScript or Python if you want to. Some blocks, such as the microphone blocks, will only work on the new (V2) micro:bit, but these are clearly labelled. All other blocks will work on both versions. You can also add additional packages that give you more blocks to play withï¿½more on this later.
 
 ___
 
@@ -166,7 +166,6 @@ If you look in your **Download** folder you should find your **.hex** file. If n
 
 If you haven't already done so you will need to connect your micro:bit to your computer using a micro USB cable.
 
-![009_05](/images/009_05.png)
 
 ### 9
 
@@ -178,7 +177,6 @@ You now need to **Copy** (Ctrl + C) the **.hex** file from your **Download** fol
 
 ![010_03](/images/010_03.png)
 
-![010_01](/images/010_01.png)
 
 ### 10
 
@@ -212,7 +210,6 @@ ___
 
 ![011_02](/images/011_02.png)
 
-![011_01](/images/011_01.png)
 
 - Make your own icon using the **_show leds_** block.
 - Make a program that counts down from 5 seconds to 1 seconds and then displays a smiley face for 5 seconds.
@@ -265,7 +262,7 @@ We now need to program button A. The success criteria requires the numbers to be
 
 A variable is a container for a value, like a number we might use in a sum, or a string (text) that we might use as part of a sentence. One special thing about variables is that their contained values can change.
 
-![012_02](/images/012_02.png)
+
 
 ### 4
 
@@ -296,7 +293,7 @@ ___
 **Name your variables wisely! A good variable name describes what it is for or what it contains. Variable names should be lowercase, with words separated by underscores to improve readability. my_first_variable is better than My1stVar**
 ____
 
-![013_05](/images/013_05.png)
+
 
 ### 5
 
@@ -373,9 +370,9 @@ In this project, we will explore some of the micro:bit's other sensors and use s
 ## Success criteria
 
 We are going to make a program that senses the temperature and **_if_**
-- [x] the temperature is less than 18°C it will show the message "Too cold!!"
-- [x] the temperature is between 18°C and 24°C it will show the mesasge "Just right!"
-- [x] the temperature is more than 24°C it will show the message "Too hot!"
+- [x] the temperature is less than 18&deg;C it will show the message "Too cold!!"
+- [x] the temperature is between 18&deg;C and 24&deg;C it will show the mesasge "Just right!"
+- [x] the temperature is more than 24&deg;C it will show the message "Too hot!"
 
 ### 1
 
@@ -397,7 +394,7 @@ To start with the first task, we need to add a forever block to hold the other b
 
 ### 3
 
-This will test if something happens and then will do something that we choose. We want to sense **_if_** the **_temperature_** (in °C) is **_less than 18_** so we now need a compare block (also in the Logic block).
+This will test if something happens and then will do something that we choose. We want to sense **_if_** the **_temperature_** (in &deg;C) is **_less than 18_** so we now need a compare block (also in the Logic block).
 
 ![017_01](/images/017_01.png)
 
@@ -409,7 +406,7 @@ We need to add this to the **_if_** block
 
 ### 5
 
-We now need to add in the **_temperature_** input, the desired temperature (18°C) and a message **_if_** the temperature is **_less than 18_**°C. The **_if_** block is a logical test and will return a True or False. It will only run the blocks in the **_then_** section **_if_** the test is True.
+We now need to add in the **_temperature_** input, the desired temperature (18&deg;C) and a message **_if_** the temperature is **_less than 18_**&deg;C. The **_if_** block is a logical test and will return a True or False. It will only run the blocks in the **_then_** section **_if_** the test is True.
 
 ![017_03](/images/017_03.png)
 ___
@@ -440,13 +437,13 @@ ___
 ____
 
 
-![017_04](/images/017_04.png)
+
 
 ### 6
 
-The message "Too cold!" will only show if the temperature is **_less than_** 18°C.
+The message "Too cold!" will only show if the temperature is **_less than_** 18&deg;C.
 
-That should now have met the first success criteria. The second success criteria will be slightly more complex as it will need two tests to see if the temperature is above 18°C and below 24°C. To do this we need to use another Logic block with an **_and_** in it to carry out two tests at the same time.
+That should now have met the first success criteria. The second success criteria will be slightly more complex as it will need two tests to see if the temperature is above 18&deg;C and below 24&deg;C. To do this we need to use another Logic block with an **_and_** in it to carry out two tests at the same time.
 
 ![018_01](/images/018_01.png)
 
@@ -462,9 +459,6 @@ ___
 **You can right click on any block and duplicate them to save time!**
 ____
 
-![018_03](/images/018_03.png)
-
-___
 
 **Stretch tasks**
 
@@ -743,7 +737,6 @@ ___
 **Name your variables wisely! A good variable name describes what it is for or what it contains.**
 ____
 
-![029_05](/images/029_05.png)
 
 
 ### 5
@@ -1076,7 +1069,7 @@ We have been tasked with creating a product that helps protect forests and comba
 ## Success criteria
 
 - [x] Can be attached to a tree securely
-- [x] Alerts the authorities if:**–**The tree is cut down
+- [x] Alerts the authorities if:**ï¿½**The tree is cut down
 - [x] Gives the authorities the location of the fallen tree
 
 ### 1
@@ -1211,7 +1204,7 @@ At the bottom of the screen, click the "Extensions" button. This will open a new
 
 ![046_03](/images/046_03.png)
 
-Type "datalogger" into the search box and you should see the new datalogger extension. Notice that "datalogger" has no spaces—you will get many more results if you type "data logger".
+Type "datalogger" into the search box and you should see the new datalogger extension. Notice that "datalogger" has no spacesï¿½you will get many more results if you type "data logger".
 
 ___
 
@@ -1455,7 +1448,7 @@ ___
 
 **Final thoughts**
 
-Being able to store data and analyze it later is a very powerful tool. The data you record can help you improve what you are measuring. For example, a farm could measure soil moisture and light levels, see how these affect the crop yield, and consequently improve its profitability. Data can also be used to spot patterns, and you can create programs that do this for you—this is known as machine learning. In our farm example, a form of machine learning could be used in which the machine learns from the data which light and water levels get the highest crop yield. This can be used to automate watering and light levels to maximize the yield. Data science and machine learning can be applied to almost anything and are rapidly changing the world we live in.
+Being able to store data and analyze it later is a very powerful tool. The data you record can help you improve what you are measuring. For example, a farm could measure soil moisture and light levels, see how these affect the crop yield, and consequently improve its profitability. Data can also be used to spot patterns, and you can create programs that do this for youï¿½this is known as machine learning. In our farm example, a form of machine learning could be used in which the machine learns from the data which light and water levels get the highest crop yield. This can be used to automate watering and light levels to maximize the yield. Data science and machine learning can be applied to almost anything and are rapidly changing the world we live in.
 
 ____
 
@@ -1534,7 +1527,7 @@ As with the node, we also need to set the radio group to the same as the node or
 
 Here, the micro:bit waits to receive the variable 'Data'. It then shows the variable on the LEDs.
 
-![057_04](/images/057_04.png)
+
 
 ### 5
 
@@ -1564,7 +1557,7 @@ In this example we take the received variable and plot a bar graph using the LED
 
 You may need to think about adding some 'pauses' on the node to slow the data transmission rate down to make the batteries last longer!
 
-![058_03](/images/058_03.png)
+
 ___
 
 **PRO _TIP_**
@@ -1717,7 +1710,7 @@ We are going to use:
 - Pin 17 (3v) to power both the relay and the moisture sensor
 - Ground (GND or 0v) for both the relay and the moisture sensor
 
-![062_02](/images/062_02.png)
+
 
 **Wiring it all up**
 
@@ -1898,7 +1891,7 @@ Here you can see how the servo motors are wired to the servo controller and micr
 
 The + cable from **both** the servos need to go into the 3v opening on the servo control board.
 
-The–cable needs to go into output 1 and 2 respectively.
+Theï¿½cable needs to go into output 1 and 2 respectively.
 
 Pay attention to which side you put them on. In this image:
 
@@ -2216,7 +2209,7 @@ ___
 
 **PRO _TIP_**
 
-**When typing these, open and close the brackets and speech marks before adding the contents so that you don't forget to close them. So you would type (‘ ’) and then type the string in the middle. You can use ‘ ’ or “ ” as long as you are consistent.**
+**When typing these, open and close the brackets and speech marks before adding the contents so that you don't forget to close them. So you would type (ï¿½ ï¿½) and then type the string in the middle. You can use ï¿½ ï¿½ or ï¿½ ï¿½ as long as you are consistent.**
 
 __***Some Python interpreters close them for you automatically!***__
 ____
@@ -2253,7 +2246,7 @@ The micro:bit's LEDs are arranged in a 5x5 grid so to make this easier we can ar
 
 **Plan your image**
 
-Plan your image using the **MicroPython design sheet**. Have a go at a few different designs and try using the different brightness values from 0–9. Give your image a name underneath the grid as this will help later on.
+Plan your image using the **MicroPython design sheet**. Have a go at a few different designs and try using the different brightness values from 0ï¿½9. Give your image a name underneath the grid as this will help later on.
 
 ### 7
 
@@ -2261,7 +2254,7 @@ Plan your image using the **MicroPython design sheet**. Have a go at a few diffe
 
 ![082_01](/images/082_01.png)
 
-Here we are creating a variable called **pattern1** and we are telling MicroPython that it is an image. We need to specify 5 rows of 5 values (one for each LED). The value can be from 0–9, 0 being off and 9 being the brightest. The code here won't do anything as there are no values, it is empty to show you the structure of the code. We will add the values below.
+Here we are creating a variable called **pattern1** and we are telling MicroPython that it is an image. We need to specify 5 rows of 5 values (one for each LED). The value can be from 0ï¿½9, 0 being off and 9 being the brightest. The code here won't do anything as there are no values, it is empty to show you the structure of the code. We will add the values below.
 
 We then need to tell it which LEDs we want on and off.
 
@@ -2290,7 +2283,7 @@ ___
 - Try the above code yourself.
 - Give the variable **(pattern1)** a different name.
 - Make your own image with your own name.
-- Experiment with different brightness values (0–9) to get different effects.
+- Experiment with different brightness values (0ï¿½9) to get different effects.
 
 ____
 
@@ -2306,7 +2299,7 @@ Here we have created 4 separate images with some slight differences in the LED v
 
 You may find it easier to plan your animation first You could use a copy of the planning grids on page 74 or even use a spreadsheet.
 
-After the images we create a list called **all_ patterns** and we add all the patterns (1–4) to the list. You can tell it is a list as it uses square brackets **[]**.
+After the images we create a list called **all_ patterns** and we add all the patterns (1ï¿½4) to the list. You can tell it is a list as it uses square brackets **[]**.
 
 Then we display the list with a slight delay.
 
@@ -2357,8 +2350,8 @@ We are going to follow the same process as we did for the MakeCode version at th
 
 We are going to replicate this program in MicroPython code. Before we dive in we must understand some other programming tools:
 
-- while loops–we have seen these before in the Quickstart project
-- if, else if, else–also known as selection
+- while loopsï¿½we have seen these before in the Quickstart project
+- if, else if, elseï¿½also known as selection
 - buttons as inputs
 - random numbers (functions and modules)
 
@@ -2412,7 +2405,7 @@ We are now going to look at making a random number in MicroPython and then we ha
 
 This imports all the micro:bit modules This imports the random module
 
-To generate a random number we need to 'call' the function and give it some parameters, which contain 'arguments'. This tells MicroPython what range of numbers to use (0–9 for example).
+To generate a random number we need to 'call' the function and give it some parameters, which contain 'arguments'. This tells MicroPython what range of numbers to use (0ï¿½9 for example).
 
 ![088_01](/images/088_01.png)
 
@@ -2468,7 +2461,7 @@ ____
 
 # MICROPYTHON DESIGN SHEET
 
-Use this sheet to design your images and animations. Fill the square with number from **0–9** with 0 being off and 9 being the brightest and give it a name.
+Use this sheet to design your images and animations. Fill the square with number from **0ï¿½9** with 0 being off and 9 being the brightest and give it a name.
 
 ![092_01](/images/092_01.png)
 
@@ -2493,7 +2486,7 @@ Whether you're new to teaching Computing or you're a specialist Computer Science
 
 ## Smart Schools on Arduino
 
-Our Smart Schools resource provides accessible and engaging projects for teachers and learners that utilize the more advanced features of Arduino in real-world contexts. It presents real problems that need solving with technology, with all the associated teaching and learning resources such as slides, lesson plans, and activities, as well as solution guides and cheat sheets for non-specialists. The resources are split into UK key stages 3–5 (6th–8th grade, 9th–10th grade and 11th–12th grade respectively), with three courses per key stage.
+Our Smart Schools resource provides accessible and engaging projects for teachers and learners that utilize the more advanced features of Arduino in real-world contexts. It presents real problems that need solving with technology, with all the associated teaching and learning resources such as slides, lesson plans, and activities, as well as solution guides and cheat sheets for non-specialists. The resources are split into UK key stages 3ï¿½5 (6thï¿½8th grade, 9thï¿½10th grade and 11thï¿½12th grade respectively), with three courses per key stage.
 
 **<https://www.arm.com/resources/education/schools/content/arduino-schools-projects>**
 
@@ -2517,13 +2510,13 @@ Take a journey of learning through the Internet of Things and robotics. Learners
 
 ## Introduction to Programming Using MicroPython
 
-Learn about all the programming techniques contained in the UK Computer Science curriculum for 11–16-year-olds using MicroPython to program a micro:bit. This programming course covers the foundational computational techniques required for Computer Science for 14–16-year-olds in the UK.
+Learn about all the programming techniques contained in the UK Computer Science curriculum for 11ï¿½16-year-olds using MicroPython to program a micro:bit. This programming course covers the foundational computational techniques required for Computer Science for 14ï¿½16-year-olds in the UK.
 
 **<https://www.arm.com/resources/education/schools/content/programming-using-micropython>**
 
 ## Computational Thinking Tasks
 
-These resources cover all the GCSE Computer Science computational thinking techniques for 14–16-year-olds. They contain lots of interactive activities to reinforce understanding and prepare learners for their exams.
+These resources cover all the GCSE Computer Science computational thinking techniques for 14ï¿½16-year-olds. They contain lots of interactive activities to reinforce understanding and prepare learners for their exams.
 
 **<https://www.arm.com/resources/education/schools/content/computational-thinking>**
 

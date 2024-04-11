@@ -3,7 +3,7 @@
 
 Arm Education Media is an imprint of Arm Limited, 110 Fulbourn Road, Cambridge, CB1 9NJ, UK
 
-Copyright &copy; 2022 Arm Limited (or its affiliates). All rights reserved.
+Copyright &copy; 2024 Arm Limited (or its affiliates). All rights reserved.
 
 No part of this publication may be reproduced or transmitted in any form or by any means, electronic or mechanical, including photocopying, recording or any other information storage and retrieval system, without permission in writing from the publisher, except under the following conditions:
 
@@ -54,7 +54,7 @@ Accompanying lesson plans and a digital version of this book can be downloaded f
 
 Learners often struggle to conceptualize what the micro:bit is and what it is for. It is important to ensure learners understand that a micro:bit can sense, control and react to the real world in many ways. Learners' creations don't need to be complex and the making part of the process is as much fun as the coding part. Some projects will only have a sensor and an output (like a traffic counter), while others will have more complex programs (like a remote-controlled robot). The beauty of the micro:bit is its versatility and simplicity. The key to unlocking the power of the micro:bit is understanding the blocks (code) that micro:bit uses and learning how to combine the blocks to solve problems in creative ways. Much can be learned through play and experimentation, but learners progress faster if there is a challenge to overcome or a problem to be solved.
 
-## The hardware�Version 1 and Version 2
+## The hardware—Version 1 and Version 2
 
 There are now two versions of the micro:bit, the original micro:bit (V1) and the new micro:bit (V2). They look very similar, but the new micro:bit has some new features and hardware that make it even better and allow you to do more with it. You can find all the technical details on the micro:bit website: **<https://microbit.org/get-started/user-guide/overview/>**
 
@@ -76,12 +76,11 @@ The most interesting new features are the built-in speaker and microphone. These
 
 ## The interface
 
-The MakeCode website lets you program your micro:bit using a block-based programming language. These blocks do everything a "proper" programming language does, but they allow you to program visually without worrying about the syntax. You can also program your micro:bit using JavaScript or Python if you want to. Some blocks, such as the microphone blocks, will only work on the new (V2) micro:bit, but these are clearly labelled. All other blocks will work on both versions. You can also add additional packages that give you more blocks to play with�more on this later.
+The MakeCode website lets you program your micro:bit using a block-based programming language. These blocks do everything a "proper" programming language does, but they allow you to program visually without worrying about the syntax. You can also program your micro:bit using JavaScript or Python if you want to. Some blocks, such as the microphone blocks, will only work on the new (V2) micro:bit, but these are clearly labelled. All other blocks will work on both versions. You can also add additional packages that give you more blocks to play with—more on this later.
 
 ___
 
 **PRO _TIP_**
-
 
 **If your V1 micro:bit is very old, you may need to flash it as it could need new firmware to work correctly. Detailed instructions are available here: <https://microbit.org/get-started/user-guide/firmware/>**
 
@@ -213,9 +212,6 @@ ___
 
 - Make your own icon using the **_show leds_** block.
 - Make a program that counts down from 5 seconds to 1 seconds and then displays a smiley face for 5 seconds.
-- Click the **Input** menu under the Basic blocks menu and then the **...more** icon for more blocks (most of the blocks have more options).
-
-![011_03](/images/011_03.png)
 
 **Final thoughts**
 
@@ -225,7 +221,6 @@ You have just learned how to:
 - Name and save your program
 - Upload your program to your micro:bit
 - Extend your program
-- Access more blocks
 
 These are the essential skills for using a micro:bit. You will be doing this a lot in this course!
 
@@ -248,7 +243,7 @@ In this project we will make a program that gives simple maths problems and also
 
 Open **<https://makecode.microbit.org>**
 
-The first thing to consider here is how the program will be used. The success criteria requires a simple interface so we need to have some very simple instructions when the program first runs. As the A and B buttons are either side of the LEDs we will program button A to give the question (Q) and button B give the answer (A) and show this with a simple arrow:
+The first thing to consider here is how the program will be used. The success criteria requires a simple interface so we need to have some very simple instructions when the program first runs. As the A and B buttons are either side of the LEDs we will program button A to give the question (Q) and button B give the answer (A) and show this with a simple arrow. The left arrow can be created by using the < and - symbols. Similarly, the right arrow can be created using the - and > symbols.
 
 ![012_01](/images/012_01.png)
 
@@ -260,7 +255,7 @@ We now need to program button A. The success criteria requires the numbers to be
 
 **Variables**
 
-A variable is a container for a value, like a number we might use in a sum, or a string (text) that we might use as part of a sentence. One special thing about variables is that their contained values can change.
+A variable is a container for a value, like a number we might use in a calculation, or a string (text) that we might use as part of a sentence. One special thing about variables is that their contained values can change.
 
 
 
@@ -335,7 +330,7 @@ ___
 
 We have used a few different blocks here so now is the time to test your program and make sure that it behaves as you would expect.
 
-Give your program a name such as **math_app.hex** and **Download** it onto you micro:bit.
+Give your program a name such as **math_app.hex** and **Download** it onto your micro:bit.
 
 Make sure to check that the answer is correct a few times! If not, look at the blocks and see where the problem is and fix it as you go along.
 
@@ -370,8 +365,8 @@ In this project, we will explore some of the micro:bit's other sensors and use s
 ## Success criteria
 
 We are going to make a program that senses the temperature and **_if_**
-- [x] the temperature is less than 18&deg;C it will show the message "Too cold!!"
-- [x] the temperature is between 18&deg;C and 24&deg;C it will show the mesasge "Just right!"
+- [x] the temperature is less than 18&deg;C it will show the message "Too cold!"
+- [x] the temperature is between 18&deg;C and 24&deg;C it will show the message "Mmm just right!"
 - [x] the temperature is more than 24&deg;C it will show the message "Too hot!"
 
 ### 1
@@ -380,7 +375,7 @@ Open **<https://makecode.microbit.org>**
 
 From the basic blocks add a **_forever_** block with a **_show number_** block that contains the **_temperature_** input.
 
-**Save** this as **TemperatureSensor.hex** and upload it to your micro:bit. You will now see the temperature in degrees centigrade shown continuously across the LEDs. Try moving the micro:bit to warmer and cooler areas to see the changes on the screen (if you have a battery, long enough USB cable or are using a laptop).
+**Save** this as **TemperatureSensor.hex** and upload it to your micro:bit. You will now see the temperature in degrees Celsius shown continuously across the LEDs. Try moving the micro:bit to warmer and cooler areas to see the changes on the screen (if you have a battery, long enough USB cable or are using a laptop).
 
 We will now use some simple logic to display a message based on the current temperature.
 
@@ -388,7 +383,7 @@ We will now use some simple logic to display a message based on the current temp
 
 ### 2
 
-To start with the first task, we need to add a forever block to hold the other block so the program will run continously. We then need to add an **_if_** block from the **Logic** blocks.
+We first add another ***forever*** block to hold other blocks which we wish to run continuously. We then need to add an **_if_** block from the **Logic** blocks.
 
 ![016_02](/images/016_02.png)
 
@@ -511,7 +506,7 @@ Loneliness and isolation are a real problem for children staying in hospitals fo
 Here are some possible ideas that could be programmed for your pet:
 
 - reacting to playing or shaking using an accelerometer;
-- feeding every few second/minutes/hours;
+- feeding every few seconds/minutes/hours;
 - needing attention, such as getting lonely if not interacted with frequently and making noises to remind you to interact;
 - sleeping and waking, depending on a light sensor, and snoring when it is asleep;
 - reacting to temperature using a temperature sensor;
@@ -575,9 +570,9 @@ A simple interaction to start with is the micro:pet reacting to being shaken. He
 
 If you have a micro:bit V2, then you can also add in some sound blocks to accompany your interaction.
 
-The V2 sounds are in the **_sound_** blocks. You also need to **_enable_** the speaker **_on start_** to make it work. You only have to enable it once.
+The V2 sounds are in the **_music_** blocks. You also need to **_enable_** the speaker **_on start_** to make it work. You only have to enable it once.
 
-Think about how sounds can be added to all the interactions and what sounds best represent what is happening. Here we use the **_baddy_** sound as the micro:pet is not happy. Experiment with the sounds available to best suit the interaction.
+Think about how sounds can be added to all the interactions and what sounds best represent what is happening. Here we use the **_yawn_** sound as the micro:pet is not happy. Experiment with the sounds available to best suit the interaction.
 
 ![022_03](/images/022_03.png)
 
@@ -790,7 +785,7 @@ Here we create the initial user interface by telling the user to "Shake to play"
 
 Now for the slightly tricky bit! We have made the program transmit the choice but we now need to make it receive the other player's choice and determine whether we have won, lost, or whether it's a draw.
 
-We are going to do some comparrisons of the variable **_player1_choice_** and **_receivedNumber._** We have just created the **_player1_choice_** variable and it will contain a number (0-2) if it has been shaken. We now need to make the program listen for the other player's choice and to do this we need the **_on radio received_** block from the Radio blocks.
+We are going to do some comparisons of the variable **_player1_choice_** and **_receivedNumber._** We have just created the **_player1_choice_** variable and it will contain a number (0-2) if it has been shaken. We now need to make the program listen for the other player's choice and to do this we need the **_on radio received_** block from the Radio blocks.
 
 ![031_02](/images/031_02.png)
 
@@ -808,7 +803,7 @@ We now need to add an _=_ logic block so we can see if the variable is = to **_r
 
 Here you can see the = block with the variables inside them.
 
-The **then** part of the **if then else** block shows the string "Draw!" because if both players choose the same the game is a draw.
+The **then** part of the **if then else** block shows the string "Draw" because if both players choose the same the game is a draw.
 
 ![032_01](/images/032_01.png)
 
@@ -898,7 +893,7 @@ ____
 
 **What is the Internet of Things (IoT)?**
 
-One way in which technology is improving our lives is by adding computers to everything. These computers are tiny but contain sensors that allow the computer to control a system or device. They can also transmit and receive data to and from the internet. This allows much more precise control over the device as digital sensors are more precise that analogue sensors in some applications such as temperature control.
+One way in which technology is improving our lives is by adding computers to everything. These computers are tiny but contain sensors that allow the computer to control a system or device. They can also transmit and receive data to and from the internet. This allows much more precise control over the device as digital sensors are more precise than analogue sensors in some applications such as temperature control.
 
 In this project we will be designing and making a "smart" street light for a city. The city currently has traditional street lights and these use a lot of electricity and have sodium bulbs which are expensive to replace.
 
@@ -922,7 +917,7 @@ The city wants the new street lights to use sensors to detect the light levels a
 
 - The street light should not exceed the footprint of a traditional street light
 - The street lights can be connected to the internet if needed
-- The environment agency is very keen for the lights to be as efficient as possible in terms of both materials used and power consumed to minimise the environmental impact
+- Agencies that monitor or protect the environment are always very keen for the lights to be as efficient as possible in terms of both materials used and power consumed to minimise the environmental impact
 - Consider what other sensors could be added to improve functionality
 
 ### 5
@@ -1069,7 +1064,7 @@ We have been tasked with creating a product that helps protect forests and comba
 ## Success criteria
 
 - [x] Can be attached to a tree securely
-- [x] Alerts the authorities if:**�**The tree is cut down
+- [x] Alerts the authorities if: – The tree is cut down
 - [x] Gives the authorities the location of the fallen tree
 
 ### 1
@@ -1167,14 +1162,14 @@ The alert to the authorities will need to be tested so that it doesn't send aler
 
 We can protect life on land together. Here you can see what you can do to contribute. Find organizations to support, information to share and some useful tips for your everyday life that can really make a difference.
 
-**<https://www.globalgoals.org/15-life-on-land> <https://www.hackster.io/149085/panic-button-using-xinabox-micro-bit-and-ubidots-bf4dc8>**
+**<https://www.globalgoals.org/15-life-on-land>**
 
 ![045_01](/images/045_01.png)
 
 ____
 
 
-# INTRODUCTION TO DATA LOGGING
+# INTRODUCTION TO DATALOGGING
 
 ## Setting the scene
 
@@ -1190,17 +1185,11 @@ A new feature of the micro:bit V2 is its ability to log data. This means that it
 
 ### 1
 
-![046_01](/images/046_01.png)
-
-To add the new blocks, click on "Advanced" underneath the basic blocks menu to expand it.
-
-### 2
-
 At the bottom of the screen, click the "Extensions" button. This will open a new search screen with all the available extensions. There are lots! These extensions add additional functionality to your micro:bit. Lots of them are for specific peripherals like the enviro:bit.
 
 ![046_02](/images/046_02.png)
 
-### 3
+### 2
 
 ![046_03](/images/046_03.png)
 
@@ -1215,19 +1204,19 @@ ___
 
 ____
 
-### 4
+### 3
 
 You will now see the Data Logger blocks at the bottom of the basic blocks menu.
 
 ![047_01](/images/047_01.png)
 
-### 5
+### 4
 
 ![047_02](/images/047_02.png)
 
 These are all the blocks in the datalogger extension. You now have all the extra blocks you need, but let's quickly look at what datalogging is and how it works.
 
-### 6
+### 5
 
 Datalogging is where you record data over a given amount of time. That data can be anything the micro:bit can take as an input, for example, temperature or light levels. This data can be sampled quickly or slowly. For example, if you wanted to log the Gs your scooter gets on a halfpipe then you would sample a lot of data over a short time. If you were measuring light and moisture levels for a plant in a greenhouse, you would sample much more slowly for a longer period, like every hour. This sampling rate is also referred to as "automatic logging".
 
@@ -1235,13 +1224,13 @@ You can already take inputs and process them, but these blocks allow you to stor
 
 ![047_03](/images/047_03.png)
 
+### 6
+
+The data that is recorded can be exported from the micro:bit onto your PC as a .csv file (for spreadsheets).
+
 ### 7
 
-The data is stored in a file called MY_DATA, which you can access on the micro:bit from a PC. You can export the data as a .csv file (for spreadsheets) or view the data by simply clicking on it.
-
-### 8
-
-The data you record will be stored in an array. This is a fancy wordfor a table and you may already be familiar with it from usingspreadsheets. The array has rows and columns: rows go across fromleft to right and columns go down from top to bottom.
+The data you record will be stored in an array. This is a fancy wordfor a table and you may already be familiar with it from usingspreadsheets. The array is two-dimensional as it has rows and columns: rows go across fromleft to right and columns go down from top to bottom.
 
 
 |  | A | B | C | 
@@ -1258,7 +1247,7 @@ The data you record will be stored in an array. This is a fancy wordfor a table 
 | 10 | 0.008 | 4.125 | 2453.85 |
 
 
-### 9
+### 8
 
 ![048_01](/images/048_01.png)
 
@@ -1266,7 +1255,7 @@ An important concept to understand is the difference between data and informatio
 
 Using our greenhouse example, the data on its own is meaningless, just a stream of readings. However, when we know that the readings show how the light levels and moisture levels change over time and how this affects the plants, we have information. Information is useful! Taking that information and analyzing it is called data science. If we do this properly, we can turn our information into knowledge, which we can use to improve what we are logging.
 
-### 10
+### 9
 
 You need to label your data so you don't just end up with lots of numbers with no meaning. The label is the heading at the top of a column of readings. The rows are filled in each time an input is sampled.
 
@@ -1276,32 +1265,31 @@ You need to label your data so you don't just end up with lots of numbers with n
 | 1 | time (source1) | time (source1) | data.0 | 
 
 
-### 11
+### 10
 
-Let's start with a simple example. Add a **_log data_** block from the Data Logger blocks to a **_forever_** block. Name the column **_Light level_** and add a **_light level_** input block to the value space. This will constantly log the light level and record it.
+Let's start with a simple example. Add a **_log data_** block from the Data Logger blocks to a **_forever_** block. Name the column **_light level_** and add a **_light level_** input block to the value space. This will constantly log the light level and record it. Insert a pause block so that one reading is taken every second.
 
 ![048_02](/images/048_02.png)
 
-### 12
+### 11
 
 You will notice that this "Show console" button appears under the micro:bit simulator. If you click it, you reach a new screen where you can see the live data being logged from the simulator.
 
 ![049_01](/images/049_01.png)
 
-### 13
+### 12
 
 ___
 
 **PRO _TIP_**
 
-
-**Click on the blocks at the top of the screen to get back to your code.**
+**Click on the “Go back” button to return to your code.**
 
 ____
 
 ![049_02](/images/049_02.png)
 
-### 14
+### 13
 
 The micro:bit only has a limited amount of memory, so you need to program a way to start and stop the logging. Use the buttons for this.
 
@@ -1313,7 +1301,7 @@ You can now use this variable to control when logging starts and stops by testin
 
 ![050_02](/images/050_02.png)
 
-### 15
+### 14
 
 Start by setting the **_logging_** variable to **_false_** on start. This means the micro:bit is not logging as soon as you start it up.
 
@@ -1323,7 +1311,7 @@ Next, use the **_on button B pressed_** block to set the **_logging_** variable 
 
 ![050_03](/images/050_03.png)
 
-### 16
+### 15
 
 ![050_04](/images/050_04.png)
 
@@ -1333,7 +1321,7 @@ You should also add in some sound blocks to give an audio confirmation that the 
 
 Set up the column to store the data. The column will hold the light level, with each row being a measurement at a given time.
 
-### 17
+### 16
 
 Next, add the blocks that start the datalogging when the **_logging_** variable is **_true_**.
 
@@ -1342,19 +1330,19 @@ Use an **_every x ms_** block so that a reading is taken every x milliseconds. E
 
 ![051_01](/images/051_01.png)
 
-### 18
+### 17
 
 Next, add sounds and icons to the **_on button_** blocks to provide audio feedback.
 
 ![051_02](/images/051_02.png)
 
-### 19
+### 18
 
 These blocks allow you to delete all the data by pressing the micro:bit logo on the front of the micro:bit. You could use an **_on button A+B_** block instead if you think this makes it too easy to accidentally wipe your data. You can also add the **_sad_** noise to indicate the data being deleted.
 
 ![051_03](/images/051_03.png)
 
-### 20
+### 19
 
 ![052_01](/images/052_01.png)
 
@@ -1362,15 +1350,15 @@ Now let's add the blocks that allow the micro:bit to keep recording even once th
 
 Add in an icon to show this is happening as well as a suitable sound. You could even use a **_show string_** block here to show that it is full.
 
-### 21
+### 20
 
-Now see if it all works in the simulator. Click "Show console" to test the functionality.
+Now see if it all works in the simulator. Click "Show data" to test the functionality.
 
 You may need to click the A button on the simulator to see the button.
 
 ![052_02](/images/052_02.png)
 
-### 22
+### 21
 
 Test that the buttons do as you expect, that the LEDs show the correct icon, and that the right sounds play.
 
@@ -1378,7 +1366,7 @@ Adjust the light level to see the logs change.
 
 ![052_03](/images/052_03.png)
 
-### 23
+### 22
 
 Let's now add a bar graph that shows the light level on the micro:bit. This will show how much light you need to get a reading. It's more than you might think!
 
@@ -1386,7 +1374,7 @@ These blocks simply plot a bar chart on the LEDs to show the light intensity the
 
 ![053_01](/images/053_01.png)
 
-### 24
+### 23
 
 Now test your program on the real micro:bit!
 
@@ -1414,7 +1402,7 @@ ____
 
 ![053_02](/images/053_02.png)
 
-### 25
+### 24
 
 When you plug in the micro:bit, you should now be able to see a new file called MY_DATA.
 
@@ -1430,7 +1418,7 @@ ___
 
 ____
 
-### 26
+### 25
 
 This is what your MY_DATA file will look like. You have multiple options now: you can download and save the data as a .csv file (for spreadsheets) or see a visual preview as a chart.
 
@@ -1474,8 +1462,7 @@ ___
 
 **PRO _TIP_**
 
-
-**The scientists want data from as many sensors as possible, if you can use other sensor peripherals make sure that you make full use of all the additional sensors.**
+**The scientists want data from as many sensors as possible. If you can use other sensor peripherals make sure that you make full use of all the additional sensors.**
 
 ____
 
@@ -1494,8 +1481,7 @@ ___
 
 **PRO _TIP_**
 
-
-**The 'on radio received' event can only be created once due to hardware limitations, to work round this you can simply concatenate (join) your sensor data and send it all once, or use more than one micro:bit.**
+**The 'on radio received' event can only be created once due to hardware limitations. To work round this you can simply concatenate (join) your sensor data and send it all once, or use more than one micro:bit.**
 
 ____
 
@@ -1539,7 +1525,7 @@ Here, the micro:bit waits to receive the variable 'Data'. It then shows the vari
 
 In this example we again set the node radio group to 1 and will also do the same on the gateway.
 
-Again, we create a variable called 'Air Temp' and set it to the micro:bit's temperature sensor reading.
+Again, we create a variable called 'AirTemp' and set it to the micro:bit's temperature sensor reading.
 
 Then the 'AirTemp' variable is sent over radio to the gateway.
 
@@ -1578,7 +1564,7 @@ ____
 These blocks are set up as in example 2 and set the radio group to 1 (this is also done on the gateway below).
 
 
-Here the acceleration data is sent over radio. In the previous example we set a variable to the temperature reading and send that. Here the acceleration data is just sent. Do you think this makes a difference?
+Here the acceleration data is sent over radio. In the previous example we set a variable to the temperature reading and sent that. Here the acceleration data is just sent. Do you think this makes a difference?
 
 ### 8
 
@@ -1594,9 +1580,9 @@ Here the acceleration data is sent over radio. In the previous example we set a 
 
 As before, the radio group is set to the same as the node so that they can communicate. (Second "on start" block is not needed in the MakeCode simulator.)
 
-The blocks here 'listen' for transmitted numbers and then add them to a variable called 'recievedNumber'.
+The blocks here 'listen' for transmitted numbers and then add them to a variable called 'receivedNumber'.
 
-A graph is then plotted on the LED screen showing a real time graph of the accelerometer data. Why might this be useful data for the scientists?
+A graph is then plotted on the LED screen showing a real-time graph of the accelerometer data. Why might this be useful data for the scientists?
 
 ### 10
 
@@ -1652,7 +1638,7 @@ A group of farmers have some farmland that is at risk of desertification (becomi
 | **Input** | **Process** | **Output** | 
 | Light level | If light level dropsbelow 45 | Turn on light | 
 
- 
+
 | **Water (irrigation pumps)** |  |  |
 | :--- | :---| :--- |
 | **Input** | **Process** | **Output** | 
@@ -2167,7 +2153,7 @@ ____
 
 # GETTING STARTED WITH MICROPYTHON
 
-MicroPython allows you to use all the power of Python on the micro:bit. Python is a high level text based language that is used commercially across small, medium and global companies such as Google.
+MicroPython allows you to use all the power of Python on the micro:bit. Python is a high-level text-based language that is used commercially across small, medium and global companies such as Google.
 
 In this guide we will use Python code and it will look like this:
 
@@ -2175,7 +2161,7 @@ In this guide we will use Python code and it will look like this:
 
 To write your code you will need to use an interpreter. You can use an online one here:
 
-**<https://python.microbit.org/v/1>**
+**<https://python.microbit.org/v/3>**
 
 The interface looks like this:
 
@@ -2183,7 +2169,7 @@ The interface looks like this:
 
 ## Important things to remember
 
-Making the leap into using a "proper" programming language is exciting but you need to be careful when typing out the code as any mistakes will make MicroPython throw an error. MicroPython is case sensitive so python and Python are treated as different things. Typing out the code carefully is very important as any typos or missing quotation marks will again throw errors. MicroPython usually tries to tell you what line the error is on but it isn't always completely accurate.
+Making the leap into using a text-based programming language is exciting but you need to be careful when typing out the code as any mistakes will make MicroPython throw an error. MicroPython is case sensitive so python and Python are treated as different things. Typing out the code carefully is very important as any typos or missing quotation marks will again throw errors. MicroPython usually tries to tell you what line the error is on but it isn't always completely accurate.
 
 
 
@@ -2191,7 +2177,7 @@ Making the leap into using a "proper" programming language is exciting but you n
 
 ### 1
 
-Let's dive straight in (if you haven't already) and code our first program. Open the interpreter (**<https://python.microbit.org/v/1>**) and you should see the following code:
+Let's dive straight in (if you haven't already) and code our first program. Open the interpreter (**<https://python.microbit.org/v/3>**) and you should see the following code:
 
 ![079_01](/images/079_01.png)
 
@@ -2201,15 +2187,13 @@ Let's look at what each part does:
 
 ![079_02](/images/079_02.png)
 
-![080_01](/images/080_01.png)
-
-Did you notice that after the **display.scroll** there were brackets () and speech marks "" inside them? These are important as they tell MicroPython that what is between the bracket and speech marks is text (or 'string' as it is also called in programming).
+Did you notice that after the **display.scroll** there were brackets () with speech marks " inside them? The speech marks are important as they tell MicroPython that what is between them is text (or a 'string' as it is also called in programming).
 
 ___
 
 **PRO _TIP_**
 
-**When typing these, open and close the brackets and speech marks before adding the contents so that you don't forget to close them. So you would type (� �) and then type the string in the middle. You can use � � or � � as long as you are consistent.**
+**When typing these, open and close the brackets and speech marks before adding the contents so that you don't forget to close them. So you would type (‘ ’) and then type the string in the middle. You can use ‘ ’ or “ ” as long as you are consistent.**
 
 __***Some Python interpreters close them for you automatically!***__
 ____
@@ -2220,7 +2204,7 @@ ____
 
 **Indentation**
 
-You may have noticed that all the lines after **while True:** are indented four spaces. This is done to help the reader see what code sits within other code, much like in MakeCode where blocks sit inside each other.
+You may have noticed that all the lines after **while True:** are indented four spaces. This is done to show the Python interpreter that the code belongs to the **while** loop, much like in MakeCode where blocks sit inside each other.
 
 ![080_03](/images/080_03.png)
 
@@ -2246,7 +2230,7 @@ The micro:bit's LEDs are arranged in a 5x5 grid so to make this easier we can ar
 
 **Plan your image**
 
-Plan your image using the **MicroPython design sheet**. Have a go at a few different designs and try using the different brightness values from 0�9. Give your image a name underneath the grid as this will help later on.
+Plan your image using the **MicroPython design sheet**. Have a go at a few different designs and try using the different brightness values from 0–9. Give your image a name underneath the grid as this will help later on.
 
 ### 7
 
@@ -2270,7 +2254,7 @@ Notice how there are fewer **""** as all the code is on one line.
 
 **Variables**
 
-A variable is a container for a value, like a number we might use in a sum, or a string that we might use as part of a sentence. One special thing about variables is that their contained values can change.
+A variable is a container for a value, like a number we might use in a calculation, or a string that we might use as part of a sentence. One special thing about variables is that their contained values can change.
 
 ![082_03](/images/082_03.png)
 
@@ -2283,7 +2267,7 @@ ___
 - Try the above code yourself.
 - Give the variable **(pattern1)** a different name.
 - Make your own image with your own name.
-- Experiment with different brightness values (0�9) to get different effects.
+- Experiment with different brightness values (0–9) to get different effects.
 
 ____
 
@@ -2350,8 +2334,8 @@ We are going to follow the same process as we did for the MakeCode version at th
 
 We are going to replicate this program in MicroPython code. Before we dive in we must understand some other programming tools:
 
-- while loops�we have seen these before in the Quickstart project
-- if, else if, else�also known as selection
+- while loops – we have seen these before in the Quickstart project
+- if, else if, else – also known as selection
 - buttons as inputs
 - random numbers (functions and modules)
 
@@ -2376,7 +2360,7 @@ ___
 
 **PRO _TIP_**
 
-**Notice the indentation? This helps us see the structure of the code. The if is triggered by the while and the display. scroll is trigerred by the if. Indentation is usually in blocks of four spaces.**
+**Notice the indentation? This allows the interpreter to understand the structure of the code. The if is triggered by the while and the display. scroll is triggered by the if. Indentation is usually in blocks of four spaces.**
 
 ____
 
@@ -2401,15 +2385,18 @@ We are now going to look at making a random number in MicroPython and then we ha
 
 ![087_02](/images/087_02.png)
 
-![087_03](/images/087_03.png)
+This imports all the micro:bit modules
+This imports the random module
 
-This imports all the micro:bit modules This imports the random module
+
+
+![087_03](/images/087_03.png)
 
 To generate a random number we need to 'call' the function and give it some parameters, which contain 'arguments'. This tells MicroPython what range of numbers to use (0�9 for example).
 
 ![088_01](/images/088_01.png)
 
-Here we have set up our forever (**while True**) loop and have used an **if** statement to see if button A is pressed. If it is, we create a **variable** called **int1** (just like in MakeCode) and then call the **random.randint** function with the parameters **(0,10)** which select a number between 0 and 10. We then do this again for **int2**.
+Here we have set up our forever (**while True**) loop and have used an **if** statement to see if button A is pressed. If it is, we create a **variable** called **int1** (just like in MakeCode) and then call the **random.randint** function with the parameters **(0,10)** which selects a number between 0 and 10. We then do this again for **int2**.
 
 **The finished program**
 
@@ -2447,7 +2434,7 @@ We have learned some of the fundamental building blocks of programming and used 
 - Explore the micro:bit modules <(**https://microbit-MicroPython.readthedocs.io/en/latest/microbit.html#functions**)> and think about how you could use these tools to solve a problem.
 - Explore the other functions in the random library (**<https://microbit-MicroPython.readthedocs.io/en/latest/random.html>**).
 - Explore other modules and built-in functions (**<https://microbit-MicroPython.readthedocs.io/en/latest/microbit.html>**)
-such as:
+	such as:
 	- Speech
 	- SPI
 	- UART
@@ -2486,7 +2473,9 @@ Whether you're new to teaching Computing or you're a specialist Computer Science
 
 ## Smart Schools on Arduino
 
-Our Smart Schools resource provides accessible and engaging projects for teachers and learners that utilize the more advanced features of Arduino in real-world contexts. It presents real problems that need solving with technology, with all the associated teaching and learning resources such as slides, lesson plans, and activities, as well as solution guides and cheat sheets for non-specialists. The resources are split into UK key stages 3�5 (6th�8th grade, 9th�10th grade and 11th�12th grade respectively), with three courses per key stage.
+Our Smart Schools resource provides accessible and engaging projects for teachers and learners that utilize the more advanced features of Arduino in real-world contexts. It presents real problems that need solving with technology, with all the associated teaching and learning resources such as slides, lesson plans, and activities, as well as solution guides and cheat sheets for non-specialists.
+
+The resources are split into UK key stages 3–5 (6th–8th grade, 9th–10th grade and 11th–12th grade respectively), with three courses per key stage.
 
 **<https://www.arm.com/resources/education/schools/content/arduino-schools-projects>**
 
@@ -2510,13 +2499,13 @@ Take a journey of learning through the Internet of Things and robotics. Learners
 
 ## Introduction to Programming Using MicroPython
 
-Learn about all the programming techniques contained in the UK Computer Science curriculum for 11�16-year-olds using MicroPython to program a micro:bit. This programming course covers the foundational computational techniques required for Computer Science for 14�16-year-olds in the UK.
+Learn about all the programming techniques contained in the UK Computer Science curriculum for 11–16-year-olds using MicroPython to program a micro:bit. This programming course covers the foundational computational techniques required for Computer Science for 14–16-year-olds in the UK.
 
 **<https://www.arm.com/resources/education/schools/content/programming-using-micropython>**
 
 ## Computational Thinking Tasks
 
-These resources cover all the GCSE Computer Science computational thinking techniques for 14�16-year-olds. They contain lots of interactive activities to reinforce understanding and prepare learners for their exams.
+These resources cover all the GCSE Computer Science computational thinking techniques for 14–16-year-olds. They contain lots of interactive activities to reinforce understanding and prepare learners for their exams.
 
 **<https://www.arm.com/resources/education/schools/content/computational-thinking>**
 

@@ -1,10 +1,13 @@
 # micro:course
-Our micro:course is a colourful, introductory book of projects that guides learners from first principles of the micro:bit through to the use of Python. It is intended for self-study and includes full explanations of each project, with all code also provided. It is available in two versions: for micro:bit v1 and for v2.
+## Important
+### To download the latest stable version, please click below instead of using the "Download ZIP" button.
+### [Click here to download 2nd Edition (for micro:bit v2)](https://github.com/arm-university/micro-course/releases/download/v2.0.0/micro-course-main.zip)
+### [Click here to download 1st Edition (for micro:bit v1)](https://github.com/arm-university/micro-course/releases/download/v1.0.2.ed1/Arm.Micro.course.pdf)
 
-Which version should I use? If you are using micro:bit v1s, we recommend downloading the v1 version of the micro:course. If you are using micro:bit v1 or a mixture of v1s and v2s, we recommend the v2 version, which clearly indicates which tasks relate specifically to v2 users.
+## About
+micro:course is a colourful, introductory book of projects that guides learners from first principles of the micro:bit through to the use of Python. It is intended for self-study and includes full explanations of each project, with all code also provided. It is available in two versions: for micro:bit v1 and for v2.
 
-## [Download both micro:courses for micro:bit](https://github.com/arm-university/micro-course/archive/refs/heads/main.zip)
-## [Download micro:course for micro:bit V2 only](https://github.com/arm-university/ASP_micro-course/blob/main/Arm_micro%20course_V2.pdf)
+Which version should I use? If you are using micro:bit v1, we recommend downloading the first edition of the micro:course. If you are using micro:bit v2 or a mixture of v1s and v2s, we recommend the second edition, which clearly indicates which tasks relate specifically to v2 users.
 
 ## Resource Aim
 To introduce, inspire and engage learners to study Physical Computing as well as serving as an introduction to the pedagogy and resources offered in our full courses.

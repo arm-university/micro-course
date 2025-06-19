@@ -5,7 +5,7 @@
 ### [Click here to download 1st Edition (for micro:bit v1)](https://github.com/arm-university/micro-course/releases/download/v1.0.2.ed1/Arm.Micro.course.pdf)
 
 ## About
-micro:course is a colourful, introductory book of projects that guides learners from first principles of the micro:bit through to the use of Python. It is intended for self-study and includes full explanations of each project, with all code also provided. It is available in two versions: for micro:bit v1 and for v2.
+micro:course is a colourful, introductory book of projects that guides learners from first principles of the micro:bit, starting with block programming in blockly through to the use of Python. It is intended for self-study and includes full explanations of each project, with all code also provided. It is available in two versions: for micro:bit v1 and for v2.
 
 Which version should I use? If you are using micro:bit v1, we recommend downloading the first edition of the micro:course. If you are using micro:bit v2 or a mixture of v1s and v2s, we recommend the second edition, which clearly indicates which tasks relate specifically to v2 users.
 
